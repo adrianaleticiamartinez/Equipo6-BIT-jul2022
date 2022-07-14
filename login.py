@@ -6,6 +6,13 @@ usuario=(str(input()))
 print("ingrese su contraseña")
 auth=(str(input()))
 print(usuario + " "+ auth )
+n=0
+while 1==1:
+    if usuario != usuarios[n]:
+        n=n+1
+    else:
+        break
+print(n)
 
 
-#PRUEBA
+
