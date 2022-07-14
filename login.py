@@ -22,7 +22,6 @@ if u.perfil.astype("string").iloc[0] == "Manager":
     print("idCliente: " + c.idCliente.astype("string").iloc[0])
     print("nombre: " + c.nombre.astype("string").iloc[0])
     print("apellidoPaterno: " + c.apellidoPaterno.astype("string").iloc[0])
-    print("apellidoMaterno: " + c.apellidoMaterno.astype("string").iloc[0])
     print("fechaNacimiento: " + c.fechaNacimiento.astype("string").iloc[0])
     print("sexo: " + c.sexo.astype("string").iloc[0])
     print("segmento: " + c.segmento.astype("string").iloc[0])
