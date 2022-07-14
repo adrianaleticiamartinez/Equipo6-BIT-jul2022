@@ -8,4 +8,5 @@ def getUsuario(usuario):
     usuarios = pd.read_csv('baseUsuarios.csv')
     return usuarios[usuarios.usuario==usuario]
 
-print(getUsuario("ENM").perfil)
+print(getUsuario("pacoG"))
+print(getCliente("BF000002999"))
